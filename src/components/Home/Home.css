@@ -1,0 +1,154 @@
+.main-container{
+
+  border: 2px solid black;
+  min-height: 100vh;
+  width: 100vw;
+  
+  background-size:cover;
+  background-position: 0px 0px;
+  
+}
+
+.first-div{
+  height: 600px;
+  width: 100vw;
+  background-image: url('https://uploads-ssl.webflow.com/5b680680f109cf5a2fd941ab/5b6817d95fc94c67bf48eaab_image-header.jpg');
+  background-size:cover;
+  background-position: 0px 0px;
+}
+
+.center-div{
+  /* grid-template-columns: 1fr 1fr; */
+  margin-top: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  opacity: 1;
+  color: rgb(254, 251, 251);
+
+}
+h1{
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-family: 'Libre Franklin', sans-serif;
+  color: #fff;
+  font-size: 72px;
+  line-height: 78px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+.paragraph {
+  font-family: 'IBM Plex Mono', sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.center-div-btn{
+  margin-top: 30px;
+  color: white;
+  background-color: #5ab963;
+  height: 50px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.card-div{
+  margin-left: 150px;
+  margin-top: 150px;
+  margin-right: 800px;
+}
+
+.card-div-para{
+  display: inline;
+}
+
+.h2{
+   
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #b3b3b3;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+ 
+}
+.span-h1{
+color: #000;
+font-weight: 800;
+}
+.cards{
+   margin-top: -150px;
+   padding-left: 150px;
+   padding-right: 150px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+   
+  height: 800px;
+  width: 100vw;
+}
+.img-div{
+  margin-top: -70px;
+   
+  height: 700px;
+  width: 100vw;
+  background-size:cover;
+  overflow: hidden;
+}
+#food-img{
+  width: 100%;
+  
+  object-fit: cover;
+}
+
+.mid-para{
+   
+  height: 300px;
+  width: 100vw;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding-left: 310px;
+  padding-right: 310px;
+  flex-direction: column;
+}
+.img-para-div{
+  padding: 150px;
+  padding-top: 100px;
+  display: flex;
+}
+
+.para-one{
+  margin-left: 150px;
+  padding-right: 100px;
+}
+.para-one-para{
+  font-family: 'IBM Plex Mono', sans-serif;
+  color: grey;
+}
+.last-div{
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  margin-bottom: 200px;
+}
+.last-div-left{
+  width: 700px;
+}
+.last-div-right{
+   
+   display: flex;
+  align-items: center;
+   
+   
+  height: 50px;
+  width: 150px;
+  border-radius: 5px;
+  margin-left: 300px;
+}
